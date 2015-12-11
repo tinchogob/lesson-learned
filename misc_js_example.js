@@ -1,0 +1,13 @@
+console.log('JS, The weird parts');
+console.log('\n');
+console.log("%s+%d = %s (%s)", "10", 1, "10"+1, typeof("10"+1));
+console.log('\n');
+console.log("%d + %d !== %d -> %d + %d = %d", 0.1, 0.2, 0.3, 0.1, 0.2, 0.1+0.2);
+console.log('\n');
+console.log("[] + [] = %j", []+[]);
+console.log('\n');
+console.log("[] + {} = %j", []+{});
+console.log('\n');
+console.log("{} + {} = %j", {}+{});
+console.log('\n');
+console.log(Array(16).join("wat" - 1) + " batman!");
