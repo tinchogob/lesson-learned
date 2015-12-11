@@ -1,7 +1,7 @@
 var util = require('./util.js');
 
 for (var i = 0; i < 10; i++) {
-	util.request("Iteration: " + i, function(error, response) {
-		console.log(response);
+	util.request(i, function(error, response) {
+		console.log("iteracion %d respondio %d", i, response);
 	});
 };
